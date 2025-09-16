@@ -1,0 +1,29 @@
+{
+  "name": "twilio-messaging-express-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express.js API for Twilio messaging, ready for Railway deployment",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon --watch server --ext js,json --exec \"node server/index.js\"",
+    "postinstall": "echo 'Node dependencies installed.'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "twilio": "^5.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+
+
