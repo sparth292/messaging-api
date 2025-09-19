@@ -1,6 +1,3 @@
-# Bhosdike Prayag Java Se JavaScript me code ko convert kyu kiya ?
-
-### Maine mast Twilio ka docs padh padh ke code kiya aur tune bc yeh kiya, not acceptable
 
 ## Twilio Messaging Express API
 
